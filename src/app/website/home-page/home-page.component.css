@@ -1,0 +1,142 @@
+
+#hero-section {
+   scroll-margin-top: 8rem;
+}
+.menu{
+    display: none;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+header{
+    
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    overflow: hidden;
+    padding-right: 2rem;
+    background-color: #333; 
+   
+}
+
+.navbar{
+    color: white;
+    padding: 10px;
+    height: max-content;
+     
+}
+
+.navbar a  {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-right: 1rem;
+    
+}
+
+.navbar a:hover {
+    color: #323232;
+    background-color: rgb(219, 219, 227);
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a.active {
+    background-color: #555;
+}
+
+.navbar ul{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    justify-content: end;
+}
+.header-content {
+    text-align: center;
+    padding-top: 7rem;
+}
+.header-content h1 {
+    font-size: 2.5em;
+}
+.header-content h2 {
+        color:green;
+    }
+.header-content p {
+    font-size: 1.2em;
+    color: #666;
+}
+.main{
+    
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: rgb(243, 244, 243);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: .1rem;
+   
+  
+   
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.button1, .button2 {
+    background-color: #555;
+    border: none;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.button1:hover, .button2:hover {
+    background-color: #777;
+}
+@media screen and (max-width: 550px) {
+    .menu{
+        display: block;
+    }  
+    .header-content h1 {
+        font-size: 1.5em;
+    }
+    
+    .header-content p {
+        font-size: 1em;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .navbar ul.active {
+        display: grid;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+        .button-container a, button{
+        width: 70%;
+        text-align: center;
+        }
+        
+    }
+

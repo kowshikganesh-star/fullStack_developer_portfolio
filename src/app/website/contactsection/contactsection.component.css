@@ -1,0 +1,50 @@
+main{
+
+ padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+   
+}
+#contact-section{
+    width:75%;
+    margin: 0 auto;
+   
+  
+}
+.contact-links{
+     background-color: #1e1e1e;
+     color: #fff;
+     border-radius: 12px;
+     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+     padding: 20px;
+     word-break: break-word; 
+     overflow-wrap: break-word;  
+     
+}
+ h2{
+    color: darkblue;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+strong{
+   
+    padding-right: .5rem;
+}
+h2 + p{
+    color: rgb(17, 69, 133);
+    text-align: center;
+}
+a{
+   color: #00bfff
+}
+
+@media screen and (max-width: 550px) {
+   
+    .contact-links {
+        width: 80%;
+    }
+  
+    
+}

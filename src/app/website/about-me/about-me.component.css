@@ -1,0 +1,30 @@
+#about-section {
+    scroll-margin-top: 90px;
+}
+
+main{
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.about{
+     padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #00000014;
+     max-width: 700px;
+     line-height: 1.6;
+     font-size: 1rem;
+    margin: 0 auto;
+}
+
+h2{
+    color: darkblue;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}

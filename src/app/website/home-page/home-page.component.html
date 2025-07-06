@@ -1,0 +1,33 @@
+
+<header>
+    <div class="menu" (click)="toggleMenu()"> &#9776;</div>
+    <nav class="navbar">
+        <ul [class.active]="isMenuOpen">
+            <li><a href="#hero-section" (click)="handleMenuClose($event)">Home</a></li>
+            <li><a href="#about-section" (click)="handleMenuClose($event)">About</a></li>
+            <li><a href="#projects-section" (click)="handleMenuClose($event)">Projects</a></li>
+            <li><a href="#skill-section" (click)="handleMenuClose($event)">Skills</a></li>
+            <li><a href="#contact-section" (click)="handleMenuClose($event)">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main">
+    <section id="hero-section">
+        <div class="header-content">
+            <h1>Kowshik Ganesh Polamreddy</h1>
+            <h2>Java Full Stack Developer</h2>
+            <p>I build real-world applications with Spring Boot & Angular.</p>
+        </div>
+        <div class="button-container">
+            <button class="button1" (click)="viewResume()">View Resume</button>
+            <a href="assets/Kowshik_Java_Developer.pdf" download target="_blank"  class="button2">Download Resume</a>
+        </div>
+    </section>
+</main>
+<router-outlet></router-outlet>
+<app-project-section></app-project-section> 
+<app-skill-section></app-skill-section>
+<app-about-me></app-about-me>
+<app-contactsection></app-contactsection>
+
