@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/',
+  basePath: '/FullStack_Developer_portfolio',
   supportedLocales: {
   "en-US": ""
 },
