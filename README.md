@@ -21,13 +21,13 @@ Welcome to my personal developer portfolio! This project showcases my skills, te
 
 ## 📁 Project Structure
 
-JavaDeveloper/
-|──public/
-| |──assets
-├── src/
-│ ├── app/
-│ │ └── website/
-│ │   ├── home-page/
+JavaDeveloper/```
+|──public/```
+| |──assets```
+├── src/```
+│ ├── app/```
+│ │ └── website/```
+│ │   ├── home-page/```
 │ │   ├── about/
 │ │   ├── projects/
 │ │   ├── skills/
